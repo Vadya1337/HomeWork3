@@ -6,34 +6,34 @@ public class Main {
         // Задание №1
 
         byte a = 100;
-     short b = 2000;
-    int c = 50000;
-    long d = 1000L;
-    float i = 2.5f;
-    double f = 22.5;
-    System.out.println("Значение переменной a с типом переменной byte равно " + a  );
-        System.out.println("Значение переменной b с типом переменной short равно " + b  );
-        System.out.println("Значение переменной c с типом переменной int равно " + c );
-        System.out.println("Значение переменной d с типом переменной long равно " + d );
-        System.out.println("Значение переменной i с типом переменной float равно " + i );
-        System.out.println("Значение переменной f с типом переменной double равно " + f );
+        short b = 2000;
+        int c = 50000;
+        long d = 1000L;
+        float i = 2.5f;
+        double f = 22.5;
+        System.out.println("Значение переменной a с типом переменной byte равно " + a);
+        System.out.println("Значение переменной b с типом переменной short равно " + b);
+        System.out.println("Значение переменной c с типом переменной int равно " + c);
+        System.out.println("Значение переменной d с типом переменной long равно " + d);
+        System.out.println("Значение переменной i с типом переменной float равно " + i);
+        System.out.println("Значение переменной f с типом переменной double равно " + f);
 
         // Задание №2
 
-        float aa = 27.12f;
-        long bb = 987678965549L;
-        float cc = 2.786f;
-        short dd = 569;
-        short ii = -159;
-        short ff = 27897;
-        short gg = 68;
+        double alla = 27.12;
+        long bobr = 987678965549L;
+        double coroka = 2.786;
+        short dedyshka = 569;
+        short intelekt = -159;
+        short fin = 27897;
+        byte georgi = 68;
 
         // Задание №3
 
-        byte lp = 23;
-        byte as = 27;
-        byte ea = 30;
-        int summPeople = lp + as + ea;
+        byte lydmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        int summPeople = lydmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
         short summList = 480;
         int list = summList / summPeople;
         System.out.println("На каждого ученика рассчитанно " + list + " Листов бумаги ");
@@ -42,12 +42,12 @@ public class Main {
 
         byte bytZaDveMin = 16;
         int bytZaDvadcatMin = bytZaDveMin * 10;
-       short bytZaSytki = 16 * 32 * 24;
+        short bytZaSytki = 16 * 32 * 24;
         int bytZaTriDnya = bytZaSytki * 3;
         int bytZaMounth = bytZaTriDnya * 10;
         System.out.println("За двадцать минут машина произвела " + bytZaDvadcatMin + " Штук бутылок");
         System.out.println("За сутки машина произвела " + bytZaSytki + " Штук бутылок");
-        System.out.println("За 3 дня машина произвела " + bytZaTriDnya+ " Штук бутылок");
+        System.out.println("За 3 дня машина произвела " + bytZaTriDnya + " Штук бутылок");
         System.out.println("За месяц машина произвела " + bytZaMounth + " Штук бутылок");
 
         // Задание №5
@@ -106,5 +106,5 @@ public class Main {
         System.out.println("Кристина теперь получает " + krisItog + " рублей,годовой доход вырос на " + krisRaz);
 
     }
-    }
+}
 
